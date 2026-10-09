@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width,initial-scale=1" name="viewport"/><meta content="Personal technology, IoT and engineering projects by Manuel Vera." name="description"/><title>Personal Projects | Manuel Vera</title><style>
+:root{--ink:#102033;--muted:#647184;--line:#dce3ea;--bg:#f6f8fa;--card:#fff;--accent:#1f5f8b;--accent2:#163f5d}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:var(--ink);background:var(--bg);line-height:1.6}a{color:inherit}.wrap{max-width:1120px;margin:auto;padding:0 28px}.hero{background:linear-gradient(125deg,#0d2234,#174866);color:#fff;padding:78px 0 64px}.eyebrow{text-transform:uppercase;letter-spacing:.18em;font-size:.78rem;font-weight:700;opacity:.78}.hero h1{font-size:clamp(2.7rem,7vw,5.7rem);line-height:.95;margin:.25em 0 .22em;letter-spacing:-.055em}.hero h2{font-weight:500;font-size:clamp(1.15rem,2.2vw,1.65rem);margin:0;max-width:800px;color:#d7e7f2}.contact{display:flex;gap:12px;flex-wrap:wrap;margin-top:32px}.pill,.btn{border:1px solid rgba(255,255,255,.3);border-radius:999px;padding:10px 15px;text-decoration:none;font-size:.92rem}.btn{background:#fff;color:#153b55;font-weight:700}.section{padding:64px 0}.grid{display:grid;grid-template-columns:1.25fr .75fr;gap:42px}.section h3{font-size:.8rem;text-transform:uppercase;letter-spacing:.16em;color:var(--accent);margin:0 0 18px}.lead{font-size:1.23rem;line-height:1.75;margin:0}.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:30px}.stat{background:var(--card);border:1px solid var(--line);padding:22px;border-radius:14px}.stat strong{display:block;font-size:1.8rem;color:var(--accent2)}.skills{display:flex;flex-wrap:wrap;gap:9px}.skill{background:#eaf0f4;color:#254357;border-radius:999px;padding:7px 11px;font-size:.86rem}.timeline{position:relative}.job{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:25px 28px;margin-bottom:16px}.jobhead{display:flex;justify-content:space-between;gap:20px;align-items:flex-start}.job h4{font-size:1.12rem;margin:0}.companyrow{display:flex;align-items:center;gap:12px;margin-top:5px}.logo{width:74px;height:34px;object-fit:contain;background:#fff;border:1px solid var(--line);border-radius:8px;padding:5px}.logo.unimet{width:54px;height:54px}.logo-fallback{font-weight:800;letter-spacing:-.03em;font-size:1rem;color:#1f5f8b;background:#fff;border:1px solid var(--line);border-radius:8px;padding:5px 10px;min-width:74px;text-align:center}.edurow{display:flex;align-items:center;gap:14px}.company{color:var(--accent);font-weight:700}.date{color:var(--muted);white-space:nowrap;font-size:.9rem}.job ul{margin:14px 0 0;padding-left:20px;color:#334456}.job li+li{margin-top:7px}.aside{background:#eaf0f4;border-radius:18px;padding:27px;height:max-content}.aside h4{margin:0 0 10px}.aside p{margin:0;color:#43576a}.edu{display:grid;gap:14px}.eduitem{border-top:1px solid var(--line);padding-top:14px}.footer{background:#0d2234;color:#d9e5ed;padding:42px 0}.footer strong{color:#fff;font-size:1.2rem}.footer .contact{margin-top:16px}.small{font-size:.86rem;color:#91a4b2;margin-top:28px}.projects{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}.projectcard{display:block;background:#fff;border:1px solid var(--line);border-radius:16px;padding:24px;text-decoration:none;transition:.18s transform,.18s box-shadow}.projectcard:hover{transform:translateY(-2px);box-shadow:0 12px 30px rgba(16,32,51,.08)}.projectcard .tag{font-size:.75rem;text-transform:uppercase;letter-spacing:.12em;color:var(--accent);font-weight:800}.projectcard h4{font-size:1.25rem;margin:8px 0}.projectcard p{margin:0;color:#526476}.projectcard .more{display:inline-block;margin-top:15px;color:var(--accent);font-weight:800}.projectcard.soon{opacity:.72;pointer-events:none}@media(max-width:800px){.projects{grid-template-columns:1fr}}@media(max-width:800px){.grid{grid-template-columns:1fr}.stats{grid-template-columns:1fr}.jobhead{display:block}.date{display:block;margin-top:4px}.hero{padding:58px 0 50px}.section{padding:48px 0}.wrap{padding:0 20px}}
+
+.personal-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+.personal-card{min-height:260px;display:flex;flex-direction:column}
+.personal-card .chips{margin-top:auto;padding-top:22px}
+@media(max-width:900px){.personal-grid{grid-template-columns:1fr}}
+
+.project-material-block{margin-top:34px}
+.owl-gallery{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;margin-top:22px}
+.owl-gallery figure{margin:0;background:#fff;border:1px solid #e2e8ee;border-radius:16px;overflow:hidden;box-shadow:0 10px 28px rgba(24,48,70,.07)}
+.owl-gallery img{display:block;width:100%;height:auto}
+.owl-gallery figcaption{padding:12px 15px;font-size:.88rem;line-height:1.4;color:#61707d;font-weight:600}
+.sportpod-diagram{margin:22px 0 0;background:#fff;border:1px solid #e2e8ee;border-radius:16px;padding:14px;box-shadow:0 10px 28px rgba(24,48,70,.07)}
+.sportpod-diagram img{display:block;width:100%;height:auto;border-radius:10px}
+.sportpod-diagram figcaption{padding:12px 4px 2px;font-size:.88rem;line-height:1.4;color:#61707d;font-weight:600}
+@media(max-width:900px){.owl-gallery{grid-template-columns:1fr}}
+</style></head><body>
+<header class="hero"><div class="wrap"><div class="eyebrow">Engineering • Telecommunications • Program Leadership</div><h1>Manuel A. Vera</h1><h2>Electrical engineer and program leader turning complex technology, infrastructure and business requirements into executable plans and measurable results.</h2><div class="contact"><a class="btn" href="mailto:manuel.vera@gmail.com">Contact me</a><a class="pill" href="tel:+16472376600">647-237-6600</a><a class="pill" href="https://ca.linkedin.com/in/profilemanuelvera" rel="noopener" target="_blank">LinkedIn</a><span class="pill">Ontario, Canada</span></div></div></header>
+<main>
+<section class="hero project-hero">
+<div class="wrap">
+<a class="back" href="index.html">← Back to portfolio</a>
+<div class="eyebrow">PERSONAL PROJECTS</div>
+<h1>Building, experimenting and learning</h1>
+<p class="lead">A collection of hands-on projects where I explore embedded systems, IoT, home automation, software and practical applications of technology.</p>
+</div>
+</section>
+<section class="section">
+<div class="wrap">
+<div class="eyebrow">PROJECT 01</div>
+<h2>Owl — Room Monitoring Sensor</h2>
+<p class="lead">An ESP32-based room monitoring sensor developed to capture room activity, temperature, humidity and light data and log the information into a Home Assistant dashboard.</p>
+<div class="case-grid">
+<div class="case-card">
+<div class="eyebrow">CONCEPT</div>
+<h3>Turn a small sensor into a useful room-monitoring system</h3>
+<p>The objective was to build a compact sensor capable of monitoring several characteristics of a room rather than collecting a single measurement.</p>
+<p>The project combines <strong>room activity, temperature, humidity and light sensing</strong> and makes the information available in Home Assistant so the data can be viewed over time.</p>
+</div>
+<div class="case-card">
+<div class="eyebrow">TECHNOLOGY</div>
+<h3>Sense locally, collect centrally</h3>
+<p>The Owl sensor is built around an <strong>ESP32</strong>, with the sensing functions and data path integrated into the home-automation environment.</p>
+<div class="chips"><span>ESP32</span><span>IoT</span><span>Home Assistant</span><span>Temperature</span><span>Humidity</span><span>Light</span><span>Activity</span></div>
+</div>
+</div>
+<div class="project-material-block">
+<div class="eyebrow">PROJECT MATERIAL</div>
+<h3>Home Assistant Dashboard</h3>
+<p>Historical dashboard views show the collected light, temperature and humidity information.</p>
+<div class="owl-gallery">
+<figure><img alt="Owl Home Assistant dashboard showing office light sensor data" src="assets/owl-light-dashboard.png"/><figcaption>Light monitoring</figcaption></figure>
+<figure><img alt="Owl Home Assistant dashboard showing office temperature data" src="assets/owl-temperature-dashboard.png"/><figcaption>Temperature monitoring</figcaption></figure>
+<figure><img alt="Owl Home Assistant dashboard showing office humidity data" src="assets/owl-humidity-dashboard.png"/><figcaption>Humidity monitoring</figcaption></figure>
+</div>
+</div>
+</div>
+</section>
+<section class="section alt">
+<div class="wrap">
+<div class="eyebrow">PROJECT 02</div>
+<h2>SportPods — Soccer Training System</h2>
+<p class="lead">An in-development connected training system using ESP32-based pods, LED matrices and proximity sensing to create soccer drills and measure speed and agility.</p>
+<div class="case-grid">
+<div class="case-card">
+<div class="eyebrow">CONCEPT</div>
+<h3>Turn training drills into a connected system</h3>
+<p>The idea behind SportPods is to create small, connected training pods that can be positioned around a soccer field and used to build repeatable drills.</p>
+<p>Each pod provides a clear visual instruction through an <strong>LED matrix</strong>, detects when a player is in close proximity, communicates with other pods and provides measurements that can be used to evaluate speed and agility.</p>
+</div>
+<div class="case-card">
+<div class="eyebrow">ARCHITECTURE</div>
+<h3>Small autonomous pods, coordinated wirelessly</h3>
+<p>The system is being designed around an <strong>ESP32-S3</strong> architecture. ESP-NOW is used for communication between pods and a master pod, while Bluetooth is used by the master pod to transfer collected data to a phone.</p>
+<div class="chips"><span>ESP32-S3</span><span>ESP-NOW</span><span>Bluetooth</span><span>LED Matrix</span><span>Proximity Sensor</span><span>Soccer Training</span><span>In Development</span></div>
+</div>
+</div>
+<div class="project-material-block">
+<div class="eyebrow">PROJECT MATERIAL</div>
+<h3>SportPod V1 Wiring Architecture</h3>
+<p>The V1 hardware architecture combines the ESP32-S3 controller, LED matrix, VL53L0X proximity sensor, level shifting and a battery-powered 5 V supply.</p>
+<figure class="sportpod-diagram"><img alt="SportPod V1 wiring diagram showing ESP32-S3, LED matrix, VL53L0X sensor, level shifter, battery and power system" src="assets/sportpods-v1-wiring-diagram.png"/><figcaption>SportPod V1 — hardware and wiring architecture.</figcaption></figure>
+</div>
+<div class="case-grid">
+<div class="case-card">
+<div class="eyebrow">SYSTEM CONCEPT</div>
+<h3>From individual pod to training network</h3>
+<p>The long-term concept is a set of portable pods that can be arranged into different drill sequences. A master pod coordinates the sequence while individual pods provide the player-facing instructions and sensing.</p>
+</div>
+<div class="case-card">
+<div class="eyebrow">CURRENT STATUS</div>
+<h3>In development</h3>
+<p>Current work is focused on the pod hardware, power architecture, sensing, LED control and wireless communications. Software and drill-design capabilities will continue to evolve as the hardware is tested.</p>
+</div>
+</div>
+</div>
+</section>
+<section class="section">
+<div class="wrap">
+<div class="eyebrow">PROJECT 03</div>
+<h2>Coming Soon</h2>
+<p class="lead">The third personal project will be added here. It will follow the same format, keeping all personal projects together on this single page.</p>
+<div class="chips"><span>Coming Soon</span></div>
+</div>
+</section>
+<section class="section alt">
+<div class="wrap">
+<div class="eyebrow">PERSONAL LAB</div>
+<h2>Ideas become projects</h2>
+<p class="lead">These projects are a space to experiment with new technologies, build prototypes, solve practical problems and continue learning outside a professional job description.</p>
+<div class="project-nav">
+<a href="index.html">← Back to Portfolio</a>
+<a href="index.html#projects">Professional Projects →</a>
+</div>
+</div>
+</section>
+</main>
+<footer class="footer"><div class="wrap"><strong>Manuel A. Vera</strong><div>Engineering Program &amp; Telecommunications Leader</div><div class="contact"><a class="pill" href="mailto:manuel.vera@gmail.com">manuel.vera@gmail.com</a><a class="pill" href="tel:+16472376600">647-237-6600</a><a class="pill" href="https://ca.linkedin.com/in/profilemanuelvera" rel="noopener" target="_blank">LinkedIn</a></div><div class="small">© 2026 Manuel A. Vera</div></div></footer></body></html>
