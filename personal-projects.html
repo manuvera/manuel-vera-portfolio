@@ -18,7 +18,7 @@
 .sportpod-diagram figcaption{padding:12px 4px 2px;font-size:.88rem;line-height:1.4;color:#61707d;font-weight:600}
 @media(max-width:900px){.owl-gallery{grid-template-columns:1fr}}
  .skip-link{position:absolute;left:-9999px;top:auto}.skip-link:focus{left:12px;top:12px;z-index:9999;background:#fff;color:#102033;padding:10px 14px;border-radius:8px;box-shadow:0 4px 16px rgba(0,0,0,.2)}
-</style></head><body><a class="skip-link" href="#main-content">Skip to content</a>
+.pricecheck-flow{grid-template-columns:repeat(4,1fr)}.pricecheck-flow div{font-size:.82rem}.pricecheck-gallery{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;margin-top:22px}.pricecheck-placeholder{margin:0;background:#fff;border:1px solid #e2e8ee;border-radius:16px;overflow:hidden;box-shadow:0 10px 28px rgba(24,48,70,.07)}.screen-placeholder{aspect-ratio:16/10;background:linear-gradient(135deg,#102033,#1f5f8b);color:#fff;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;letter-spacing:.08em}.screen-placeholder strong{font-size:1.35rem}.screen-placeholder span{font-size:.8rem;opacity:.8;letter-spacing:.03em}.pricecheck-placeholder figcaption{padding:12px 15px;font-size:.88rem;line-height:1.4;color:#61707d;font-weight:600}.project-link{display:inline-block;background:#102033;color:#fff;text-decoration:none;padding:12px 18px;border-radius:10px;font-weight:700}.pricecheck-flow span{display:block;color:var(--accent);font-size:.72rem;letter-spacing:.12em;margin-bottom:5px}@media(max-width:900px){.pricecheck-flow{grid-template-columns:repeat(2,1fr)}.pricecheck-gallery{grid-template-columns:1fr}}\n</style></head><body><a class="skip-link" href="#main-content">Skip to content</a>
 <header class="hero"><div class="wrap"><div class="eyebrow">Engineering • Telecommunications • Program Leadership</div><h1>Manuel A. Vera</h1><h2>Electrical engineer and program leader turning complex technology, infrastructure and business requirements into executable plans and measurable results.</h2><div class="contact"><a class="btn" href="mailto:manuel.vera@gmail.com">Contact me</a><a class="pill" href="tel:+16472376600">647-237-6600</a><a class="pill" href="https://ca.linkedin.com/in/profilemanuelvera" rel="noopener" target="_blank">LinkedIn</a><span class="pill">Ontario, Canada</span></div></div></header>
 <main id="main-content">
 <section class="hero project-hero">
@@ -102,8 +102,60 @@
 <section class="section">
 <div class="wrap">
 <div class="eyebrow">PROJECT 03</div>
+<h2>PriceChecker — Cloud-Based Application</h2>
+<p class="lead">A personal software project that evolved from a simple price-tracking idea into a cloud-based application for capturing grocery prices, maintaining product history and helping users make better shopping decisions.</p>
+<div class="case-grid">
+<div class="case-card">
+<div class="eyebrow">CONCEPT</div>
+<h3>From a real-world problem to a working application</h3>
+<p>The project started with a practical question: <strong>how can I capture the prices I actually see in stores and use that information to make better shopping decisions?</strong></p>
+<p>PriceChecker has grown into an application that works with receipt data, product information, retailer history and price records. The development process has been as important as the application itself: defining the data model, building features, testing edge cases and continuously improving the system.</p>
+</div>
+<div class="case-card">
+<div class="eyebrow">CLOUD ARCHITECTURE</div>
+<h3>Modern development tools and services</h3>
+<p>The application uses a cloud-oriented development workflow with <strong>GitHub</strong> for source control and version history, <strong>Supabase/PostgreSQL</strong> for the application data layer, and <strong>Vercel</strong> for cloud deployment.</p>
+<div class="chips"><span>GitHub</span><span>Supabase</span><span>PostgreSQL</span><span>Vercel</span><span>Cloud Development</span><span>AI</span><span>Next.js</span></div>
+</div>
+</div>
+<div class="project-material-block">
+<div class="eyebrow">DEVELOPMENT EXPERIENCE</div>
+<h3>Learning the complete application lifecycle</h3>
+<p>This project has provided hands-on experience across the full development cycle: defining requirements, designing relational data structures, implementing application logic, managing source code, deploying to the cloud, testing real-world scenarios and iterating based on observed results.</p>
+<div class="flow pricecheck-flow"><div><span>01</span>IDEA</div><div><span>02</span>DATA MODEL</div><div><span>03</span>APPLICATION</div><div><span>04</span>GITHUB</div><div><span>05</span>SUPABASE</div><div><span>06</span>DEPLOY</div><div><span>07</span>TEST</div><div><span>08</span>ITERATE</div></div>
+</div>
+<div class="case-grid">
+<div class="case-card">
+<div class="eyebrow">APPLICATION CAPABILITIES</div>
+<h3>Built around real grocery data</h3>
+<p>The application includes receipt processing, product and retailer records, price history, shopping lists and price comparison. A key development challenge has been handling receipts where products do not have a usable product code and using retailer history to improve item identification.</p>
+</div>
+<div class="case-card">
+<div class="eyebrow">CURRENT EVOLUTION</div>
+<h3>From price tracking to decision support</h3>
+<p>The latest iterations explore AI-assisted shopping optimization, using the collected price data to move beyond simply recording prices toward helping users decide where and how to shop.</p>
+</div>
+</div>
+<div class="project-material-block">
+<div class="eyebrow">PROJECT SCREENSHOTS</div>
+<h3>Application interface</h3>
+<p>Selected screenshots of the working application will be presented here as the interface continues to evolve.</p>
+<div class="pricecheck-gallery">
+<figure class="pricecheck-placeholder"><div class="screen-placeholder"><strong>PRICECHECK</strong><span>Application dashboard</span></div><figcaption>Application dashboard and shopping overview.</figcaption></figure>
+<figure class="pricecheck-placeholder"><div class="screen-placeholder"><strong>RECEIPTS</strong><span>Receipt processing</span></div><figcaption>Receipt capture and product identification workflow.</figcaption></figure>
+<figure class="pricecheck-placeholder"><div class="screen-placeholder"><strong>PRICES</strong><span>Price comparison</span></div><figcaption>Product price history and retailer comparison.</figcaption></figure>
+</div>
+</div>
+<div class="project-material-block">
+<a class="project-link" href="https://pricecheck-khxuiup2o-manuel-veras-projects-f55e763e.vercel.app" rel="noopener" target="_blank">View PriceChecker application →</a>
+</div>
+</div>
+</section>
+<section class="section">
+<div class="wrap">
+<div class="eyebrow">PROJECT 04</div>
 <h2>Coming Soon</h2>
-<p class="lead">The third personal project will be added here. It will follow the same format, keeping all personal projects together on this single page.</p>
+<p class="lead">Another personal project will be added here. The personal projects remain together on this single page.</p>
 <div class="chips"><span>Coming Soon</span></div>
 </div>
 </section>
